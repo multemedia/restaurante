@@ -112,7 +112,7 @@
   <div id="reloj"><span style="display:none">Horario de atencion: Lunes a viernes 9AM a 10:30PM</span></div>
   </section>
 
- <footer>
+ <footer id="foot">
 
 <nav id ="nav_footer">  <!-- Menu -->
       <ul>
