@@ -50,21 +50,25 @@
       <nav class ="nav_central">  <!-- Menu -->
         <ul>
           <li>
-            <a href="#">Reservar</a>
+            <a href="#"><p>Reservar</p></a>
           </li>
           <li>
             <a href="#">Menú</a>
+          </li>
+          <li>
+            <a href="#">Ubicación</a>
           </li>
           <li>
             <a style="display: none">Risto</a>
             <div class="li-menu"></div>
             <div id="logo2"></div>
           </li>
-          <li>
-            <a href="#">Ubicación</a>
-          </li>
+          
           <li>
             <a href="#">Contacto</a>
+          </li>
+          <li id = "bus_nav">
+             <p id="CampoText">Buscar<input type="text" name="buscar" class="campotext"/></p>
           </li>
          </ul>
     </nav>
