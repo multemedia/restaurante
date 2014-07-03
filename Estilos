@@ -313,7 +313,7 @@ list-style-type: none;
   background-color: #DF7401;
   width: 100%;
   display: block;
-  margin-top: 75%;
+  margin-top: 55%;
 
   height: 40px;
   margin-bottom: 0%;
@@ -343,7 +343,7 @@ footer
 {
   display: table;
     height: 40px;  
-  font-family: Microsoft Yi Baiti, sans-serif, fantasy;  
+    font-family: Mayrid Pro, sans-serif, fantasy;  
   font-size:25pt; 
     text-decoration: none;
     color: #fff;
