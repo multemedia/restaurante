@@ -128,7 +128,13 @@ p
   height: 709px;
   background-image: url('imagenes/fondo.png');
 }
+
+#tablas ul p {
+  display: none;
+}
+
 #tabla_1{
+  background-image: url('imagenes/tabla1.png');
   width: 100%;
   height: 139px;
   background-size: 100% 100%; 
@@ -203,13 +209,12 @@ background-color: rgb(130,6,1);
 }
 .nav_central li{
 display: inline-block;
-
 list-style: none;
 float: left;
 background-color: 
 text-align: center;
 position: relative;
-width: 20%;
+width: 14%;
 }
 .nav_central .li-menu{
 display: table;
@@ -257,6 +262,14 @@ color:#FFF;
 
 .nav_central ul,li{
 list-style-type: none;
+}
+
+#bus_nav{
+  float: right;
+  margin-top: 0.5%;
+  margin-right: 2%;
+  width: 5%;
+
 }
 
 #secundaria {
