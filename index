@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang= "es">
+<head>
+  <meta charset = "utf-8">
+  <title>Restaurante</title>
+  <link rel="stylesheet" type = "text/css" href = "normalize.css">
+  <link rel="stylesheet" type="text/css" href = "Estilos.css">
+  <h1>Restaurante Risto</h1>
+</head>
+
+<body>
+  <div id="cuerpoPag">
+    <header>
+      <div id = "logo_principal" style = "background-image: url('imagenes/LOGO.png')"></div>
+      <div id="redes">
+       <div id = "face" style = "background-image: url('imagenes/face.png')"></div>
+       <div id = "twit" style = "background-image: url('imagenes/pajarito.png')"></div>
+     </div> 
+     <div id="botones">
+
+       <a href="#" class="botonheader"><p>Registro</p></a>
+       <a href="#" class="botonheader"><p>Tu Cuenta</p></a>   
+     </div>
+     <div id="buscar">
+       <div id="CampoText"><input type="text" name="buscar" class="campotext"/><p>Buscar</p></div>
+     </div>
+   </header><!--Lo miooooooooooooooooooooooooooooooooooooooo header-->
+   
+   <section id="principal">
+
+    <nav id="tablas">
+      <ul>
+        <div id="tabla_1" style="background-image: url('imagenes/tabla1.png')"> </div>
+      </ul>
+      <ul>
+        <div id="tabla_2" style="background-image: url('imagenes/tabla2.png')"></div>
+      </ul>
+      <ul>
+        <div id="tabla_3" style="background-image: url('imagenes/tabla3.png')"></div>
+      </ul>
+      <ul>
+        <div id="tabla_4" style="background-image: url('imagenes/tabla4.png')"></div>
+      </ul>
+    </nav>
+
+     <article id="slider" ></article>
+      <div id="menu_slider"></div>
+      <div id="sabias"></div>
+      
+      <nav class ="nav_central">  <!-- Menu -->
+        <ul>
+          <li>
+            <a href="#">Reservar</a>
+          </li>
+          <li>
+            <a href="#">Menú</a>
+          </li>
+          <li>
+            <a style="display: none">Risto</a>
+            <div class="li-menu"></div>
+            <div id="logo2"></div>
+          </li>
+          <li>
+            <a href="#">Ubicación</a>
+          </li>
+          <li>
+            <a href="#">Contacto</a>
+          </li>
+         </ul>
+    </nav>
+
+
+
+
+  </section>
+  
+  <section id="secundaria">
+    <div id="articulos">
+    <article id="articulo" style="background-image: url('imagenes/caja_1.png')">
+          <div id="caja">
+            <h2>Especial de la casa</h2>
+          </div>
+          <div id="caja1">
+            <p>Nuestro mejores platos</p>
+          </div>
+    </article>
+    <article id="articulo" style="background-image: url('imagenes/caja_2.png')">
+        <div id="caja">
+            <h2>Plato a tu medida</h2>
+          </div>
+          <div id="caja1">
+            <p>Perzonaliza los ingredientes de tu plato</p>
+          </div>
+    </article>
+    <article id="articulo" style="background-image: url('imagenes/caja_3.png')">
+        <div id="caja">
+            <h2>Cocteles</h2>
+          </div>
+          <div id="caja1">
+            <p>Elige tu Bebida</p>
+          </div>
+    </article>
+    <article id="articulo" style="background-image: url('imagenes/caja_4.png')">
+          <div id="caja">
+            <h2>Eventos</h2>
+          </div>
+          <div id="caja1">
+            <p>Organiza tus celebraciones</p>
+          </div>
+    </article>
+  </div>
+  <div id="reloj"><span style="display:none">Horario de atencion: Lunes a viernes 9AM a 10:30PM</span></div>
+  </section>
+
+ <footer>
+
+<nav id ="nav_footer">  <!-- Menu -->
+      <ul>
+        <li>
+          <a href="#">Reservar</a>
+        </li>
+        <li>
+          <a href="#">Menú</a>
+        </li>
+        <li>
+          <div class="li-menu"></div>
+          <a style="display:none">Risto</a>
+          <div id="logo2"></div>
+        </li>
+        <li>
+          <a href="#">Ubicación</a>
+        </li>
+        <li>
+          <a href="#">Contacto</a>
+        </li>
+      </ul>
+
+    </nav>
+    <div id="facefooter" style="background-image: url('imagenes/face-footer.png')"></div>
+    <div id="twitterfooter" style="background-image: url('imagenes/twitter-footer.png')"></div>
+
+
+   </footer>
+</div>
+</body>
+
+</html>
