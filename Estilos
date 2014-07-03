@@ -182,46 +182,57 @@ width: 30%;
 
 }
 .nav_central{
-  position: relative;
-  background-image: url('imagenes/navinterno.png');
-  background-size: 100% 100%;
+  position: relative;  
+  background-color: rgb(115,98,98);
+  
 }
 .nav_central{
-	display: table;
-	width: 100%;
-	height: 80px;
+display: table;
+width: 100%;
+
+height: 80px;
 }
 .nav_central ul{
-	display: table;
-	width: 100%;
+position: absolute;
+top:5px;
+margin-left: .5%;
+display: table;
+width: 99%;
+border-radius: 10px;
+background-color: rgb(130,6,1);
+
 }
 .nav_central li{
-	display: inline-block;
-	list-style: none;
-	float: left;
-	text-align: center;
-	position: relative;
-	width: 20%;
+display: inline-block;
+
+list-style: none;
+float: left;
+background-color: 
+text-align: center;
+position: relative;
+width: 20%;
 }
 .nav_central .li-menu{
-	display: table;
-	position: relative;
-	height: 1px;
-	width: 150px; 
+display: table;
+position: relative;
+height: 1px;
+width: 150px;
+
 }
 .nav_central #logo2{
-	background-image: url('imagenes/logo_interno.png');
-	background-position: center; 
-	background-size: auto 100%;
-  	height: 100px; width: 100%; 
-  	background-repeat: no-repeat;
-  	position: absolute;
-  	margin: auto;
-  	top:-30px;
+background-image: url('imagenes/logo_interno.png');
+background-position: center;
+background-size: auto 100%;
+   height: 100px; width: 100%;
+   background-repeat: no-repeat;
+
+   position: absolute;
+   margin: auto;
+   top:-30px;
 }
 .nav_central li a{
-	display: block;/*lO HACE UN BLOQUE COMO DIV*/
-	padding: 30px;
+display: block;/*lO HACE UN BLOQUE COMO DIV*/
+padding: 30px;
 }
 
 /*Menu internoooooo*/
@@ -229,28 +240,25 @@ width: 30%;
 
 
 .nav_central a
-{
-	display: table-cell;
-	font-family: Microsoft Yi Baiti, sans-serif, fantasy;  
-	font-size:13pt;		
-    text-decoration: none;
-    color: #fff;
-	text-transform:uppercase;
-	border-color:#999;
-	border-top-style:solid;
-	border-width:10px;
-	border-color:#999;
 
+{
+display: table-cell;
+font-family: Microsoft Yi Baiti, sans-serif, fantasy;
+font-size:13pt;
+text-decoration: none;
+color: #fff;
+text-transform:uppercase;
+
+border-radius: 10px;
 }
 
 .nav_central a:hover,a:active{
-	background-color:#999;
-	color:#FFF;
-	height: 9px; 
+background-color:#999;
+color:#FFF;
 }
 
 .nav_central ul,li{
-	list-style-type: none;
+list-style-type: none;
 }
 
 /*Menu internoooooo*/
@@ -375,6 +383,3 @@ footer
 {
        background-image: url('imagenes/twitter-footer.png');
 }
-
-
-
