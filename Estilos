@@ -188,7 +188,7 @@ width: 30%;
 .nav_central{
 display: table;
 width: 100%;
-
+margin-top: 3%;
 height: 80px;
 }
 .nav_central ul{
@@ -263,9 +263,11 @@ list-style-type: none;
 
 
   background-image: url('imagenes/fondo2.png');
-  height: 700px;
+  background-size: 100% 100%;
+  height: 750px;
   width: 100%;
   display: block;
+
 }
 #articulos{
 
@@ -305,10 +307,10 @@ list-style-type: none;
   background-size: 100% 100%;
 }
 #reloj{
-  margin-top: 6%;
+  margin-top: 7%;
   margin-left: 0%;
   width: 20%;
-  height: 570px;
+  height: 84%;
   background-image: url('imagenes/reloj.png');
   background-size: 100% 100%;
   float: left;
